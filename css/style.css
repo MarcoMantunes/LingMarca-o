@@ -1,0 +1,85 @@
+/* Estilo do corpo da página */
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.div0-cabecalho {
+    height: auto;
+    background-color: #008B8B;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    color: white;
+}
+
+/* Estilo da tabela no topo */
+.tabela-topo {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tabela-topo th {
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+.tabela-topo th a {
+    color: white;
+    text-decoration: none;
+}
+
+.tabela-topo th a:hover {
+    text-decoration: underline;
+}
+
+/* Blog container e seções */
+.blog-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blog-section {
+    margin-bottom: 40px;
+}
+
+.blog-section h2 {
+    color: #008B8B;
+    text-align: center;
+}
+
+.blog-section p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.blog-section a {
+    color: #008B8B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a galeria de imagens */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 18%; /* Cada imagem ocupa 18% da largura da página */
+    border-radius: 5px;
+}
